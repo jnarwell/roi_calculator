@@ -77,6 +77,6 @@ class Property:
 
     def calculate_roi(self):
         self.roi = ((self.total_income-self.total_expense)/self.total_investment)*100
-        print(f'The ROI on the property at {self.adress} is {round(self.roi),1}%')
+        print(f'The ROI on the property at {self.adress} is {round(self.roi,1)}%')
 
 property_1 = Property()
